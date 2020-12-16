@@ -1,0 +1,8 @@
+Build Command - mvn clean install
+
+Run Command - java -jar target/round_one-0.0.1-SNAPSHOT.jar
+
+ Url - http://localhost:8080/employee/getAllEmployee
+ 		http://localhost:8080/employee/findBystateanddept?dept=Banking&state=Tamilnadu
+ 		http://localhost:8080/employee/findByDept?dept=Banking
+ 		
