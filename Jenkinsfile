@@ -1,3 +1,4 @@
+@Library('shared-library') _
 pipeline{
  agent any
   stages{
@@ -7,6 +8,7 @@ pipeline{
        script{
         
         echo 'helloworld'
+        helloWorld()
         
        }
       }
