@@ -8,7 +8,7 @@ pipeline{
        script{
         
         echo 'helloworld'
-        helloWorld()
+        helloWorld("santhosh")
         
        }
       }
