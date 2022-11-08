@@ -4,7 +4,11 @@ pipeline{
    stage("Testing")
     {
       steps{
-       sh "echo 'helloworld'" 
+       script{
+        
+        echo 'helloworld'
+        
+       }
       }
     }
   }
